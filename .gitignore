@@ -5,3 +5,5 @@ coverage/
 *.log
 SOLUTION.md
 solutions/
+happydom.js/
+bunfig.toml/
