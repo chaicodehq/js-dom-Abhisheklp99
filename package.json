@@ -12,6 +12,7 @@
   "keywords": ["javascript", "dom", "lab", "education"],
   "license": "MIT",
   "devDependencies": {
+     "@happy-dom/global-registrator": "^20.8.9",
     "jest": "^29.7.0",
     "jest-environment-jsdom": "^29.7.0"
   }

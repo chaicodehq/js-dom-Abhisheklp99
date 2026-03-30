@@ -71,10 +71,28 @@
  */
 export function addColors(element, ...colors) {
   // Your code here
+
+  if(!element) return -1;
+
+  const uniqueColor=[... new Set(colors)]
+  uniqueColor.forEach(e=>{
+    element.classList.remove(e);
+    element.classList.add(e)
+  })
+  // element.classList.add(...colors)
+
+  return uniqueColor.length;
+
+
+
 }
 
 export function removeColors(element, ...colors) {
   // Your code here
+
+  
+
+
 }
 
 export function togglePattern(element, pattern) {
